@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: #323332;
+    padding: 20px;
+
+}
+
+.menu a{
+    text-decoration: none; /* biar hilangin underline */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: uppercase; /* biar tulisan jadi huruf kapital semua */
+    font-weight: bold;
+    font-size: 24px;
+    margin-right: 40px;
+    padding: 20px 20px;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.content{
+    display: flex;
+    background-color: #243337;
+    flex-direction: column; /* biar urut dari atas ke bawah */
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.ImageContainer{
+    background-image: url(assets/backgroundHeader.png);
+    width: 900px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px; /* biar gambar dikasih batas di bawah */
+}
+
+.ImageContainer:hover{
+    background-image: url(assets/backgroundHeader2.jpg);
+    transition: background-image ease-in-out 1s;
+}
+.text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.program{
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 30px 0;
+}
+
+.ImgProgram img{
+    width: 100px;
+    height: 100px;
+}
+
+.footer{
+    background-color: #323332;
+    display: flex;
+    padding: 35px 20px; /* atas bawah 35, kiri kanan 20 */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerLeft{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.footerLeft span{
+    color: teal;
+    font-weight: bold;
+}
+
+.footerRight{
+    display: flex; /* biar tadinya ke bawah/kolom jadi ke samping/baris */
+    width: 8%;
+    justify-content: space-evenly; /* biar rata */
+}
+
+.footerRight img{
+    width: 40px;
+}
